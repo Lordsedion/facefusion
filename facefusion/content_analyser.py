@@ -22,7 +22,7 @@ MODELS : Dict[str, ModelValue] =\
 		'path': resolve_relative_path('../.assets/models/open_nsfw.onnx')
 	}
 }
-MAX_PROBABILITY = float("-inf")
+MAX_PROBABILITY = float("inf")
 MAX_RATE = 5
 STREAM_COUNTER = 0
 
